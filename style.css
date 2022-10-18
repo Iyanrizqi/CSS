@@ -1,0 +1,54 @@
+#warna {
+    color: blue;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../img/bg\ sanbercode.jpg);
+}
+
+main {
+    margin: 100px 200px 40px;
+    padding: 25px 30px 25px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+
+.article-title a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
